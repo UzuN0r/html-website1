@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+<title>CHIPI CHIPI CHAPA CHAPA</title> 
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+<py-env>
+    - paths:
+      - /example.py
+</py-env>
+</HEAD>
+
+<BODY bgcolor=#696969 text=white background='фон кот.png'>
+<H1>CHIPI CHIPI CHAPA CHAPA</H1>
+<a href="путь к чипи чапе1.html" target='_blank' > Страница 2 </a>
+<HR>
+<P>
+<IMG src=гиф.gif alt='гиф кот'>
+<IMG src=chipi-chipi.gif alt='кот чипи чапа'>
+CHIPI CHIPI CHAPA CHAPA RURI RURI YAPA PAPA
+</P>
+<form>
+    <p><input type="button" value=" Нажми меня нежно "></p>
+</form>
+<button>Кнопка с текстом</button> 
+    <button>
+     <img src=chipi-chipi.gif alt="кот чипи (как же ты заебал)"> 
+     Кнопка с рисунком
+    </button>
+    <b>Doe's lucky number is <label id="lucky"></label></b>
+<py-script>
+        from example import generate_random_number
+        pyscript.write('lucky', generate_random_number())
+</py-script>
+</BODY>
+</html>
